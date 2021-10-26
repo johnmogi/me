@@ -3,10 +3,11 @@ trying to design a new site...
 the backend will consist of mongo server
 frontend will be nextJs with styled components
 
- mongosh mongodb://localhost:27017/workFolio
+ <!-- mongosh mongodb://localhost:27017/workFolio
 MongoNetworkError: connect ECONNREFUSED 127.0.0.1:28015
 (install mongodb - https://www.mongodb.com/try/download/community)
-{run mongo in the bg}
+{run mongo in the bg} -->
+mongosh
 https://www.mongodb.com/developer/quickstart/cheat-sheet/
 
 
@@ -48,3 +49,16 @@ leadPhone
 leadMail
 sentFromPage
 
+
+
+{   
+    "name": "String",
+    "workCat" : [],
+    "workName" : "String",
+    workDescription : "String",
+    workThumb : "String",
+    "workMainImage" : "String",
+    "workGallery" :  "String",
+    "workDate" : "String",
+    "workTags"  : "String"
+}

@@ -1,4 +1,9 @@
 # me
+connect to payment gateways on react nextJs
+meshulam - sent req
+max - publisher return in 2 days
+
+
 a new site:
 
 me as an expert

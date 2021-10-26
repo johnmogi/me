@@ -1,3 +1,4 @@
+// @ts-ignore
 const mongoose = require("mongoose");
 
 // MongoDB-התחברות אסינכרונית ל

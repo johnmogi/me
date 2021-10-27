@@ -36,6 +36,7 @@ router.get("/:_id", async (request, response) => {
 // POST http://localhost:3000/api/works
 router.post("/", async (request, response) => {
     try {
+        console.log('1');
         const work = new Work(request.body);
         const addedWork = await worksLogic.addWorkAsync(work);
         response.status(201).json(addedWork);

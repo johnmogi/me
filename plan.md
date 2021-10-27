@@ -52,13 +52,12 @@ sentFromPage
 
 
 {   
-    "name": "String",
-    "workCat" : [],
-    "workName" : "String",
-    workDescription : "String",
-    workThumb : "String",
-    "workMainImage" : "String",
-    "workGallery" :  "String",
-    "workDate" : "String",
-    "workTags"  : "String"
+    "workName" : "Emesh Nadlan",
+    "workCat" : "Elementor",
+    "workDescription" : "rolex inspired real estate site",
+    "workThumb" : "emesh-th.jpg",
+    "workMainImage" :  "String",
+    "workGallery" : ["emesh.jpg"],
+    "workDate" : "12-12-2020",
+    "workTags"  : ["elementor"]
 }

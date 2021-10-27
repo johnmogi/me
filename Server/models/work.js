@@ -3,14 +3,14 @@ const mongoose = require("mongoose");
 
 const WorkSchema = new mongoose.Schema({
     name: String,
-    workCat : [],
+    workCat : String,
     workName : String,
     workDescription : String,
     workThumb : String,
     workMainImage : String,
-    workGallery :  String,
+    workGallery :  Array,
     workDate : String,
-    workTags  : String
+    workTags  : Array
 }, { versionKey: false }); // versionKey: false - לא להוסיף פרמטר נוסף עבור גרסה
 
 // Create a Work Model: 

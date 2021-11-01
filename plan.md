@@ -50,6 +50,16 @@ leadMail
 sentFromPage
 
 
+{   
+"workName": "Emesh Nadlan",
+"categoryId":  "617fa63b5730b2289878ccc0" , 
+"workDescription": "rolex inspired real estate site",
+"workImage": "emesh-th.jpg",
+"workGallery": ["emesh.jpg"],
+"workTags":  ["elementor"]
+"date": "12-12-2020"
+}
+
 
 {   
     "workName" : "Emesh Nadlan",
@@ -61,3 +71,4 @@ sentFromPage
     "workDate" : "12-12-2020",
     "workTags"  : ["elementor"]
 }
+create a tag model.

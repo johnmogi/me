@@ -1,20 +1,26 @@
-// @ts-ignore
 const mongoose = require("mongoose");
 
 function connectAsync() {
     return new Promise((resolve, reject) => {
         mongoose.connect("mongodb://localhost:27017/workFolio",
-            // @ts-ignore
-            { useNewUrlParser: true, useUnifiedTopology: true }, (err, mongo) => {
-                if(err) {
+            { useNewUrlParser: true, useUnifiedTopology: true }, (err, db) => {
+                if (err) {
                     reject(err);
                     return;
                 }
-                resolve(mongo);
+                resolve(db);
             });
     });
 }
 
-module.exports = {
-    connectAsync
-};
+async function connectToDatabase() {
+    try {
+        const db = await connectAsync();
+        console.log("We're connected to " + db.name + " database on MongoDB");
+    }
+    catch (err) {
+        console.error(err);
+    }
+}
+
+connectToDatabase();
